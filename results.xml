@@ -1,0 +1,13 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="24.247">
+<testsuite name="Demo_testscript.spec.js" timestamp="1662466163471" hostname="" tests="2" failures="0" skipped="0" time="17.124" errors="0">
+<testcase name="Registration Validation1" classname="[Microsoft Edge] › Demo_testscript.spec.js:6:1 › Registration Validation1" time="15.987">
+</testcase>
+<testcase name="Excel and api validation1" classname="[Microsoft Edge] › Demo_testscript.spec.js:12:1 › Excel and api validation1" time="1.137">
+<system-out>
+second column
+{ ip: [32m'103.73.212.7'[39m }
+
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
