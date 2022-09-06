@@ -1,0 +1,144 @@
+{
+  "fileId": "5dfd32da63e42d5a1468cb423bf86e8a8832ec68",
+  "fileName": "MMB_homepage.spec.js",
+  "tests": [
+    {
+      "testId": "5dfd32da63e42d5a1468cb423bf86e8a8832ec68-8f4b1a84b3a045dc95bcb6af02e5129c29fe8929",
+      "title": "Homepage Validation",
+      "projectName": "",
+      "location": {
+        "file": "MMB_homepage.spec.js",
+        "line": 4,
+        "column": 1
+      },
+      "duration": 60000,
+      "outcome": "unexpected",
+      "path": [
+        "MMB_homepage.spec.js:4"
+      ],
+      "results": [
+        {
+          "duration": 60000,
+          "startTime": "2021-11-17T07:09:45.317Z",
+          "retry": 0,
+          "steps": [
+            {
+              "title": "Before Hooks",
+              "startTime": "2021-11-17T07:09:45.318Z",
+              "duration": 21428,
+              "steps": [
+                {
+                  "title": "browserContext.newPage",
+                  "startTime": "2021-11-17T07:10:01.265Z",
+                  "duration": 5481,
+                  "steps": []
+                }
+              ]
+            },
+            {
+              "title": "page.goto(https://mmb-test.apps.ciostage.accenture.com/)",
+              "startTime": "2021-11-17T07:10:06.759Z",
+              "duration": 3908,
+              "snippet": "\u001b[0m \u001b[90m 16 |\u001b[39m     \u001b[36masync\u001b[39m \u001b[33mLogin\u001b[39m() {\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m'https://mmb-test.apps.ciostage.accenture.com/'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mUsername_Textbox\u001b[39m\u001b[33m.\u001b[39mfill(\u001b[32m't04309_mmb_stg1@ds.dev.accenture.com'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "../Pageobjects/Homepage.js",
+                "line": 17,
+                "column": 25
+              }
+            },
+            {
+              "title": "locator.fill(//input[@type='email'])",
+              "startTime": "2021-11-17T07:10:10.680Z",
+              "duration": 23209,
+              "snippet": "\u001b[0m \u001b[90m 17 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgoto(\u001b[32m'https://mmb-test.apps.ciostage.accenture.com/'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mUsername_Textbox\u001b[39m\u001b[33m.\u001b[39mfill(\u001b[32m't04309_mmb_stg1@ds.dev.accenture.com'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mNext_Button\u001b[39m\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "../Pageobjects/Homepage.js",
+                "line": 18,
+                "column": 37
+              }
+            },
+            {
+              "title": "locator.click(#idSIButton9)",
+              "startTime": "2021-11-17T07:10:33.892Z",
+              "duration": 217,
+              "snippet": "\u001b[0m \u001b[90m 18 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mUsername_Textbox\u001b[39m\u001b[33m.\u001b[39mfill(\u001b[32m't04309_mmb_stg1@ds.dev.accenture.com'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mNext_Button\u001b[39m\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPassword_Textbox\u001b[39m\u001b[33m.\u001b[39mfill( \u001b[32m'1c5\\wZ[o2@Fb!R-5004X'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "../Pageobjects/Homepage.js",
+                "line": 19,
+                "column": 32
+              }
+            },
+            {
+              "title": "locator.fill(#i0118)",
+              "startTime": "2021-11-17T07:10:34.110Z",
+              "duration": 111,
+              "snippet": "\u001b[0m \u001b[90m 19 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mNext_Button\u001b[39m\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPassword_Textbox\u001b[39m\u001b[33m.\u001b[39mfill( \u001b[32m'1c5\\wZ[o2@Fb!R-5004X'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mSignIn_Button\u001b[39m\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "../Pageobjects/Homepage.js",
+                "line": 20,
+                "column": 37
+              }
+            },
+            {
+              "title": "locator.click(#idSIButton9)",
+              "startTime": "2021-11-17T07:10:34.223Z",
+              "duration": 294,
+              "snippet": "\u001b[0m \u001b[90m 20 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPassword_Textbox\u001b[39m\u001b[33m.\u001b[39mfill( \u001b[32m'1c5\\wZ[o2@Fb!R-5004X'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mSignIn_Button\u001b[39m\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                 ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mNo_Button\u001b[39m\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "../Pageobjects/Homepage.js",
+                "line": 21,
+                "column": 34
+              }
+            },
+            {
+              "title": "locator.click(#idBtn_Back)",
+              "startTime": "2021-11-17T07:10:34.519Z",
+              "duration": 4043,
+              "snippet": "\u001b[0m \u001b[90m 21 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mSignIn_Button\u001b[39m\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m         \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mNo_Button\u001b[39m\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m     }\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "../Pageobjects/Homepage.js",
+                "line": 22,
+                "column": 30
+              }
+            },
+            {
+              "title": "expect.toHaveText",
+              "startTime": "2021-11-17T07:10:38.568Z",
+              "duration": 5044,
+              "snippet": "\u001b[0m \u001b[90m 6 |\u001b[39m     \u001b[36mawait\u001b[39m homepage\u001b[33m.\u001b[39m\u001b[33mLogin\u001b[39m()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m     \u001b[36mawait\u001b[39m expect(homepage\u001b[33m.\u001b[39m\u001b[33mMMBTitle_div\u001b[39m)\u001b[33m.\u001b[39mtoHaveText([\u001b[32m'Manage myBusiness'\u001b[39m])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m                                        ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "MMB_homepage.spec.js",
+                "line": 7,
+                "column": 41
+              },
+              "error": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[\"Manage myBusiness\"]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall log:\n  - \u001b[2mwaiting for selector \"text=Manage myBusiness\"\u001b[22m\n\u001b[2m  -   selector resolved to 0 elements\u001b[22m\n"
+            },
+            {
+              "title": "After Hooks",
+              "startTime": "2021-11-17T07:10:43.613Z",
+              "duration": 0,
+              "steps": []
+            }
+          ],
+          "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m[\"Manage myBusiness\"]\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\nCall log:\n  - \u001b[2mwaiting for selector \"text=Manage myBusiness\"\u001b[22m\n\u001b[2m  -   selector resolved to 0 elements\u001b[22m\n\n\n\u001b[0m \u001b[90m 5 |\u001b[39m     \u001b[36mconst\u001b[39m homepage \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mHomepage\u001b[39m(page)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 |\u001b[39m     \u001b[36mawait\u001b[39m homepage\u001b[33m.\u001b[39m\u001b[33mLogin\u001b[39m()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 7 |\u001b[39m     \u001b[36mawait\u001b[39m expect(homepage\u001b[33m.\u001b[39m\u001b[33mMMBTitle_div\u001b[39m)\u001b[33m.\u001b[39mtoHaveText([\u001b[32m'Manage myBusiness'\u001b[39m])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\divya.b.sellamuthu\\OneDrive\\Playwright_POC\\tests\\MMB_homepage.spec.js:7:41\u001b[22m\n\u001b[2m    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\divya.b.sellamuthu\\OneDrive\\Playwright_POC\\node_modules\\@playwright\\test\\lib\\workerRunner.js:478:7)\u001b[22m",
+          "status": "failed",
+          "attachments": [
+            {
+              "name": "trace",
+              "contentType": "application/zip",
+              "path": "C:\\Users\\divya.b.sellamuthu\\OneDrive\\Playwright_POC\\test-results\\MMB_homepage-Homepage-Validation\\trace.zip"
+            }
+          ]
+        }
+      ],
+      "ok": false
+    }
+  ]
+}
