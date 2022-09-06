@@ -7,7 +7,7 @@
     "test": "npx playwright test",
     "single_test": "npx playwright test tests/Demo_testscript.spec.js",
     "tagged_test": "npx playwright test –grep @needed",
-    "browser_download": "npx playwright install"
+    "browser_download": "npx playwright "
   },
   "author": "divya.b.sellamuthu",
   "license": "ISC",
