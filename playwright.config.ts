@@ -19,8 +19,8 @@ const config = {
     expect: {
         timeout: 10 * 10000,
     },
-    reporter: [ ['junit', { outputFile: 'results.xml' }] ],
-                //['html', { outputFolder: 'my-report' }] ],
+    reporter: [ ['junit', { outputFile: 'results.xml' }],
+                ['html', { outputFolder: 'my-report' }] ],
     workers: 10
   };
   
