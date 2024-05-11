@@ -9,7 +9,7 @@
     "tagged_test": "npx playwright test –grep @needed",
     "browser_download": "npx playwright "
   },
-  "author": "divya.b.sellamuthu",
+  "author": "Piyush",
   "license": "ISC",
   "devDependencies": {
     "@axe-core/playwright": "^4.4.2",
